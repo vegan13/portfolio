@@ -1,0 +1,178 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+    background: #151515 url(image/bg2.jpg);
+    font-family: Helvetica, Arial, Sans-Serif;
+    color: black;
+    line-height: 1.6em;
+    }
+    
+#site 
+{
+    width: 960px;
+    margin: 25px auto;
+}
+
+#logo
+{
+    background-color: rgba(16, 11, 11, 0.75);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+    border-bottom-color: pink;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+
+#menu
+{
+    border-bottom-color: pink;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    
+    color: beige;
+    background-color: rgba(70, 45, 45, 0.75);
+}
+
+#content
+{
+    color: white;
+    padding: 15px;
+    background-color: rgba(32, 32, 32, 0.75);
+    
+    border-bottom-color: pink;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+	
+	margin: 0 auto;
+}
+
+#footer
+{
+    background-color: rgba(43, 22, 22, 0.75);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+a:link, a:visited
+{
+    color: red;
+}
+
+a:hover
+{
+    color: aqua;
+}
+
+/*
+a:visited
+{
+    color: green;
+}
+
+*/
+
+
+/*
+#content a:link
+{
+    color: red;
+}
+
+#content a:hover
+{
+    color: aqua;
+}
+
+
+#content a:visited
+{
+    color: red;
+}
+*/
+
+
+.nav
+{
+	background-color: brown;
+	color: beige;
+}
+
+.nav {
+    float: left;
+    padding: 15px;
+    font-size: 21px;
+    // margin: 0 5px;
+    font-weight: bold;
+    border-right: pink;
+    border-right-width: 2px;
+    border-style: dashed;
+
+}
+
+
+.nav a:link
+{
+    color: beige;
+}
+
+.nav:visited
+{
+    color: beige;
+}
+
+
+.nav:hover
+{
+   background-color: aqua;
+   cursor: pointer;
+   color: brown;
+}
+
+h1 {
+	margin: 0px auto;
+	padding: 20px;
+}
+
+// ------------------ styles for PORTFOLIO -------------
+
+.projects {
+    list-style: none;
+}
+
+li a img {
+    width: 250px;
+    height: 250px;
+}
+
+#content{
+	min-height: 350px;
+    vertical-align: middle;
+}
+
+.projects li {
+
+    list-style: none;  
+    // background-color: yellow;
+    float: left;
+    overflow: visible;
+    padding: 10px;
+    // margin: 50px 25px 25px auto;
+}
+
+.btn {
+    text-align: right;
+}
+
+
+
